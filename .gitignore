@@ -1,0 +1,129 @@
+# =====================================
+# GLOBAL IGNORE RULES (Full Stack Setup)
+# =====================================
+
+# -----------------------------
+# Node.js Dependencies
+# -----------------------------
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# -----------------------------
+# Build Outputs
+# -----------------------------
+dist/
+build/
+**/build/
+**/dist/
+.cache/
+.temp/
+coverage/
+*.tsbuildinfo
+
+# -----------------------------
+# Environment Files (Secrets)
+# -----------------------------
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env.*
+
+# -----------------------------
+# Logs & Runtime Files
+# -----------------------------
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+pids/
+*.pid
+*.log
+
+# -----------------------------
+# Editor / OS Files
+# -----------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# -----------------------------
+# Docker
+# -----------------------------
+Dockerfile
+Dockerfile.local
+.dockerignore
+docker-compose.yml
+docker-compose.override.yml
+
+# -----------------------------
+# Jest / Testing / Coverage
+# -----------------------------
+coverage/
+jest-html-reporters-*.html
+test-results.xml
+.tmp-test/
+
+# -----------------------------
+# Frontend Specific
+# -----------------------------
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/.env.test
+frontend/node_modules/
+frontend/build/
+frontend/.cache/
+frontend/.temp/
+frontend/coverage/
+frontend/dist/
+
+# -----------------------------
+# Backend Specific
+# -----------------------------
+backend/.env
+backend/.env.local
+backend/.env.development
+backend/.env.production
+backend/.env.test
+backend/node_modules/
+backend/dist/
+backend/coverage/
+backend/logs/
+backend/.cache/
+backend/uploads/
+backend/tmp/
+backend/data/
+backend/migrations/.temp/
+backend/mysql-data/
+backend/redis-data/
+
+# -----------------------------
+# Archives & Temporary Files
+# -----------------------------
+*.tgz
+*.zip
+*.tar
+*.gz
+*.rar
+
+# -----------------------------
+# Misc
+# -----------------------------
+*.sqlite
+*.db
+*.db-journal
