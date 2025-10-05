@@ -1,33 +1,5 @@
-// // frontend/src/pages/AdminPanel.jsx
-// import React, { useState } from 'react';
-// import Card from '../components/ui/Card';
-// import QuestionManagement from './_QuestionManagement';
-// import AdminReports from './_AdminReports';
-
-// export default function AdminPanel({ user }) {
-//   const [view, setView] = useState('reports');
-//   return (
-//     <div style={{ display: 'grid', gridTemplateColumns: '280px 1fr', gap: 16 }}>
-//       <div>
-//         <Card title="Admin">
-//           <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-//             <button className={`p-2 rounded ${view==='reports' ? 'bg-indigo-600 text-white' : ''}`} onClick={()=>setView('reports')}>User Reports</button>
-//             <button className={`p-2 rounded ${view==='questions' ? 'bg-indigo-600 text-white' : ''}`} onClick={()=>setView('questions')}>Manage Questions</button>
-//           </div>
-//         </Card>
-//       </div>
-//       <div>
-//         {view === 'reports' ? <AdminReports user={user} /> : <QuestionManagement user={user} />}
-//       </div>
-//     </div>
-//   );
-// }
-
-
-
 // frontend/src/pages/AdminPanel.jsx
 import React, { useState } from 'react';
-import Card from '../components/ui/Card';
 import SkillManager from './admin/SkillManager';
 import QuestionManager from './admin/QuestionManager';
 import AdminUserManager from './admin/AdminUserManager';
