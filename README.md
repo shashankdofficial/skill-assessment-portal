@@ -109,9 +109,10 @@ Run backend:
 npm start
 ```
 
+```
 Localhost Backend runs at: http://localhost:4000
 Railway Backend runs at: https://skill-portal-backend-production.up.railway.app/api
-
+```
 ---
 
 ### 3️⃣ Setup the Frontend
@@ -121,9 +122,15 @@ npm install
 npm start
 ```
 
+```
 Localhost Frontend runs at: http://localhost:3000
 Railway Frontend runs at: https://skill-portal-backend-production-3c64.up.railway.app
+```
 
+```
+Railway Admin Username: shashank@gmail.com
+Password: Shashank@321
+```
 ---
 
 ## 🧪 Running Unit Tests
