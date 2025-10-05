@@ -109,7 +109,8 @@ Run backend:
 npm start
 ```
 
-Backend runs at: http://localhost:4000
+Localhost Backend runs at: http://localhost:4000
+Railway Backend runs at: https://skill-portal-backend-production.up.railway.app/api
 
 ---
 
@@ -120,7 +121,8 @@ npm install
 npm start
 ```
 
-Frontend runs at: http://localhost:3000
+Localhost Frontend runs at: http://localhost:3000
+Railway Frontend runs at: https://skill-portal-backend-production-3c64.up.railway.app
 
 ---
 
