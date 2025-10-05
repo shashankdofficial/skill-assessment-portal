@@ -62,7 +62,7 @@ async function startServer() {
   try {
     await sequelize.authenticate();
     console.log('DB connected');
-    await sequelize.sync({ alter: true });
+    await sequelize.sync({ alter: false });
     app.listen(PORT, () => console.log(`Server running on ${PORT}`));
   } catch (err) {
     console.error('Failed to start app', err);

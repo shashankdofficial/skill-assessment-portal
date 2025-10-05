@@ -1,0 +1,31 @@
+services:
+  - type: web
+    name: skill-portal-backend
+    env: node
+    branch: main
+    repo: "<GITHUB_REPO>" # optional
+    root: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        value: "REPLACE_WITH_SECURE_SECRET"
+      - key: JWT_EXPIRES_IN
+        value: "7d"
+      - key: REACT_APP_USE_MOCK
+        value: "false"
+  - type: static
+    name: skill-portal-frontend
+    env: static
+    branch: main
+    repo: "<GITHUB_REPO>"
+    root: frontend
+    buildCommand: npm install && npm run build
+    publishPath: build
+
+databases:
+  - name: skill-portal-db
+    engine: postgres
+    version: "14"

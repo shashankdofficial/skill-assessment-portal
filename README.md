@@ -84,7 +84,7 @@ Skill_Assessment_Reporting_Portal/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/skill-assessment-portal.git
+git clone https://github.com/shashankdofficial/skill-assessment-portal.git
 cd skill-assessment-portal
 ```
 
